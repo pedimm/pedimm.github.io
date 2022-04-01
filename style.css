@@ -1,0 +1,104 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial,
+    sans-serif;
+  font-size: 1.6rem;
+
+  color: black;
+  line-height: 1.8;
+  text-align: center;
+  margin: 1;
+}
+
+#head {
+  background-color: rgba(220, 220, 220, 0.42);
+  padding: 8px;
+  margin: -10px;
+}
+
+#title {
+  font-size: 4rem;
+  margin-bottom: 0;
+  line-height: 0.5;
+}
+
+#subtitle {
+  font-size: 2.5rem;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+}
+
+.img-border {
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 3px;
+}
+
+a {
+  color: blue;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+figcaption {
+  font-size: 15px;
+}
+
+#img-data {
+  font-size: 13px;
+  line-height: 0;
+}
+
+#headline {
+  line-height: 8;
+  font-size: 25px;
+}
+
+#img-div {
+  background-color: white;
+  padding: 10px;
+}
+
+ul {
+  text-align: left;
+  max-width: 550px;
+  margin: auto;
+  line-height: 30px;
+}
+
+li {
+  margin: 10px 0;
+}
+
+#caption {
+  font-style: italic;
+  line-height: 100px;
+}
+
+#tribute {
+  background-color: rgba(220, 220, 220, 0.42);
+  padding: 10px;
+  margin: -10px;
+}
+
+#more-info {
+  line-height: 100px;
+}
