@@ -2,6 +2,10 @@ html {
   font-size: 10px;
 }
 
+::-webkit-scrollbar {
+  visibility: hidden;
+}
+
 body {
   font-family: BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial,
     sans-serif;
@@ -22,7 +26,7 @@ body {
 #title {
   font-size: 4rem;
   margin-bottom: 0;
-  line-height: 0.5;
+  line-height: 1.2;
 }
 
 #subtitle {
@@ -36,11 +40,19 @@ body {
   }
 }
 
-#image {
-  max-width: 100%;
-  display: block;
-  height: auto;
-  margin: auto;
+#img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+}
+
+#img-caption {
+  font-size: 2.4rem;
+}
+
+#img-data {
+  font-size: 1.8rem;
 }
 
 .img-border {
@@ -62,19 +74,11 @@ figcaption {
   font-size: 15px;
 }
 
-#img-data {
-  font-size: 13px;
-  line-height: 0;
-}
-
 #headline {
-  line-height: 8;
-  font-size: 25px;
-}
-
-#img-div {
-  background-color: white;
-  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 2.4rem;
 }
 
 ul {
